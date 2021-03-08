@@ -13,7 +13,6 @@ function App() {
       <div className={darkMode ? "Dark" : "Light"}>
         <Header />
         <Characters />
-        <h1>Hello</h1>
       </div>
     </ThemeContext.Provider>
   )
