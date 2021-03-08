@@ -1,0 +1,39 @@
+.Characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95vw;
+    gap: 50px;
+    margin: 100px auto;
+    height: auto;
+}
+
+.Character {
+    width: 310px;
+    min-height: 480px;
+    max-height: 520px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 2rem;
+    box-shadow: 0 0 20px 0 gray;
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+.Character:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.Character__description {
+    padding: 10px 20px;
+}
+
+.Character__img {
+    width: 100%;
+    height: 240px;
+    border-radius: 20px 20px 0 0;
+}
+
+.Character__name {
+    margin: 15px 0;
+}
